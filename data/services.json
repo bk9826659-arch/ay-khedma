@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "name": "House Cleaning",
+    "category": "Cleaning",
+    "description": "Professional home cleaning service.",
+    "image": "photo/house cleaning (1).jpeg",
+    "price":800,
+  "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Post Construction Cleaning",
+    "category": "Cleaning",
+    "description": "Deep cleaning after renovation.",
+    "image": "photo/house cleaning (3).jpeg",
+    "price":1000,
+  "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Stair Cleaning",
+    "category": "Cleaning",
+    "description": "Professional stair cleaning service.",
+    "image": "photo/house cleaning (8).jpeg",
+    "price":300,
+  "rating": 4.4
+  },
+  {
+    "id": 4,
+    "name": "Carpet Cleaning",
+    "category": "Cleaning",
+    "description": "Deep carpet cleaning.",
+    "image": "photo/house cleaning (9).jpeg",
+    "price":200,
+  "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Sofa Cleaning",
+    "category": "Cleaning",
+    "description": "Professional sofa and upholstery cleaning.",
+    "image": "photo/house cleaning (2).jpeg",
+    "price":500,
+  "rating": 4.9
+  },
+  {
+    "id": 6,
+    "name": "Water Tank Cleaning",
+    "category": "Cleaning",
+    "description": "Safe water tank cleaning.",
+    "image": "photo/house cleaning (4).jpeg",
+    "price":400,
+  "rating": 4.6
+  },
+  {
+    "id": 7,
+    "name": "Home Sanitization",
+    "category": "Cleaning",
+    "description": "Complete home sanitization.",
+    "image": "photo/house cleaning (6).jpeg",
+    "price":700,
+  "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Window Cleaning",
+    "category": "Cleaning",
+    "description": "Crystal clear window cleaning.",
+    "image": "photo/house cleaning (5).jpeg",
+    "price":100,
+  "rating": 4.4
+  },
+  {
+    "id": 9,
+    "name": "Marble Cleaning",
+    "category": "Cleaning",
+    "description": "Professional marble polishing and cleaning.",
+    "image": "photo/house cleaning (7).jpeg",
+    "price":300,
+  "rating": 4.6
+  },
+  {
+    "id": 10,
+    "name": "Gypsum Board",
+    "category": "Finishing",
+    "description": "Professional gypsum board installation.",
+    "image": "photo/bb (3).jpeg",
+     "price":300,
+  "rating": 4.9
+    
+  },
+  {
+    "id": 11,
+    "name": "Ceramic, Marble & Tiles",
+    "category": "Finishing",
+    "description": "Professional ceramic and marble installation.",
+    "image": "photo/cc.jpeg",
+    "price":1500,
+  "rating": 4.4
+  },
+  {
+    "id": 12,
+    "name": "Aluminum & Metal Works",
+    "category": "Finishing",
+    "description": "Doors, windows and aluminum works.",
+    "image": "photo/bb (7).jpeg",
+     "price":500,
+  "rating": 4.9
+  },
+  {
+    "id": 13,
+    "name": "Door & Window Repair",
+    "category": "Finishing",
+    "description": "Repair all types of doors and windows.",
+    "image": "photo/aa.jpeg",
+    "price":100,
+  "rating": 4.8
+  },
+  {
+    "id": 14,
+    "name": "Painting",
+    "category": "Finishing",
+    "description": "Professional interior and exterior painting.",
+    "image": "photo/bb (2).jpeg",
+     "price":500,
+  "rating": 4.8
+  },
+
+{
+  "id": 15,
+  "name": "Plumbing",
+  "category": "Maintenance",
+  "description": "Professional plumbing services.",
+  "image": "photo/bb (1).jpeg",
+  "price":500,
+  "rating": 4.5
+},
+
+{
+  "id": 16,
+  "name": "Electrician",
+  "category": "Maintenance",
+  "description": "Electrical installation and repair.",
+  "image": "photo/bb (6).jpeg",
+  "price":100,
+  "rating": 4.8
+},
+{
+  "id": 17,
+  "name": "Carpenter",
+  "category": "Maintenance",
+  "description": "Furniture repair and installation.",
+  "image": "photo/k.jpeg",
+  "price":300,
+  "rating": 4.8
+},
+{
+  "id": 18,
+  "name": "Blacksmith",
+  "category": "Maintenance",
+  "description": "Metal works and welding services.",
+  "image": "photo/bb (4).jpeg",
+  "price":400,
+  "rating": 4.8
+},
+{
+  "id": 19,
+  "name": "Air Conditioning Technician",
+  "category": "Maintenance",
+  "description": "AC installation and maintenance.",
+  "image": "photo/bb (5).jpeg",
+  "price":500,
+  "rating": 4.8
+},
+{
+  "id": 20,
+  "name": "Home Appliances Technician",
+  "category": "Maintenance",
+  "description": "Repair all home appliances.",
+  "image": "photo/a.jpeg",
+  "price":400,
+  "rating": 4.8
+},
+{
+  "id": 21,
+  "name": "Assembly & Disassembly",
+  "category": "Moving",
+  "description": "Professional furniture assembly and disassembly.",
+  "image": "photo/ff (1).jpeg",
+  "price":300,
+  "rating": 4.8
+},
+{
+  "id": 22,
+  "name": "Packing",
+  "category": "Moving",
+  "description": "Professional packing services.",
+  "image": "photo/ff (2).jpeg",
+   "price":200,
+  "rating": 4.8
+},
+{
+  "id": 23,
+  "name": "Furniture Lift (Crane)",
+  "category": "Moving",
+  "description": "Safe furniture lifting service.",
+  "image": "photo/w.jpeg",
+  "price":500,
+  "rating": 4.8
+},
+{
+  "id": 24,
+  "name": "CCTV Installation",
+  "category": "Security",
+  "description": "Professional CCTV camera installation.",
+  "image": "photo/mm (2).jpeg",
+  "price":1000,
+  "rating": 4.8
+},
+{
+  "id": 25,
+  "name": "Intercom Installation",
+  "category": "Security",
+  "description": "Install modern intercom systems.",
+  "image": "photo/mm (1).jpeg ",
+  "price":1500,
+  "rating": 4.8
+
+},
+{
+  "id": 26,
+  "name": "Alarm System Installation",
+  "category": "Security",
+  "description": "Home alarm installation services.",
+  "image": " photo/mm (3).jpeg ",
+  "price":1000,
+  "rating": 4.8
+},
+{
+  "id": 27,
+  "name": "Elderly Care",
+  "category": "Daily",
+  "description": "Professional care services for elderly people.",
+  "image": "photo/rr.jpeg",
+  "price":3500,
+  "rating": 4.8
+},
+{
+  "id": 28,
+  "name": "Child Care",
+  "category": "Daily",
+  "description": "Safe and reliable child care services.",
+  "image": "photo/ch.jpeg",
+  "price":3000,
+  "rating": 4.8
+},
+{
+  "id": 29,
+  "name": "Garden Landscaping",
+  "category": "Outdoor",
+  "description": "Professional garden landscaping services.",
+  "image": "photo/f.jpeg",
+  "price":300,
+  "rating": 4.8
+},
+{
+  "id": 30,
+  "name": "Tree Trimming",
+  "category": "Outdoor",
+  "description": "Safe tree trimming and pruning.",
+  "image": "photo/t.jpeg ",
+  "price":200,
+  "rating": 4.8
+},
+
+{
+  "id": 31,
+  "name": "Garden Cleaning",
+  "category": "Outdoor",
+  "description": "Complete garden cleaning services.",
+  "image": "photo/c.jpeg",
+  "price":400,
+  "rating": 4.8
+}
+]

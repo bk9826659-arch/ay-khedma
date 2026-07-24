@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link   rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+     <!-- -----------------------------navbar-------------------------------- -->
+
+<nav class=" header navbar navbar-expand-xl px-lg-5 px-3">
+    <div class="container-fluid px-lg-5">
+        <a class="navbar-brand text-white fw-bold fs-2" href="#"><img src="./photo/logo.png" alt="Logo" class="logo"></a>
+        <button class="button-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <form class="d-flex ms-auto me-auto" onsubmit="return false;">
+    <button class="border-0 bg-transparent fs-4" type="button">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+
+    <input
+        id="searchInput"
+        class="bg-transparent rounded-3 px-5 py-3"
+        type="search"
+        placeholder="Search">
+</form>
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item me-4"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contact Us</a></li>
+            </ul>
+            <div class="p-2">
+                <a href="favorites.html"><i class="fa-solid fa-heart fs-4 me-3"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user fs-4"></i></a>
+            </div>
+            <button id="darkModeToggle" class="btn border-0 fs-4 ms-2">
+    <i class="fa-solid fa-moon"></i>
+</button>
+        </div>
+    </div>
+</nav>
+<section class="py-5 mt-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            My Favorite Services❤️..
+        </h2>
+
+        <div class="row" id="favoritesContainer">
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="./js/favorites.js"></script>
+ 
+    <!-- footer -->
+  
+<footer class="footer py-5" id="footer">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- Logo -->
+
+            <div class="col-lg-4">
+
+                <img src="./photo/logo.png" class="img-fluid mb-3 footer-logo">
+
+                <p class="text-light">
+                    Making home services easier, faster and more reliable.
+                </p>
+
+                <div class="d-flex gap-3 mt-4">
+
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Links -->
+
+            <div class="col-lg-2 col-md-6">
+
+                <h5 class="text-white mb-4">
+                    Quick Links
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li class="mb-3">
+                        <a href="index.html">
+                            <i class="fa-solid fa-house me-2"></i>
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="mb-3">
+                        <a href="#services">
+                            <i class="fa-solid fa-list me-2"></i>
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#footer">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Help -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <h5 class="text-white mb-4">
+                    Need Help?
+                </h5>
+
+                <p class="text-light">
+
+                    Book your service in less than one minute.
+
+                </p>
+
+                <a href="booking.html" class="btn btn-success rounded-pill px-4">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="col-lg-3">
+
+                <h5 class="text-white mb-4">
+                    Contact
+                </h5>
+
+                <p class="text-light">
+
+                    <i class="fa-solid fa-phone me-2"></i>
+
+                    +20 01111111111
+
+                </p>
+
+                <p class="text-light">
+
+                    <i class="fa-solid fa-envelope me-2"></i>
+
+    support@aikhedma.com
+
+                </p>
+
+                <p class="text-light">
+
+                    <i class="fa-solid fa-location-dot me-2"></i>
+
+                    Sohag, Egypt
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr class="border-light opacity-25 my-5">
+
+        <div class="text-center">
+
+            <small class="text-light">
+
+                © 2026 AY KHEDMA. All Rights Reserved.
+
+            </small>
+
+        </div>
+
+    </div>
+
+</footer>
+<script src="./js/bootstrap.bundle.min.js">
+</script>
+<script src="./js/fevorites.js"></script>
+<script src="./js/darkmode.js"></script>
+
+
+</body>
+</html>

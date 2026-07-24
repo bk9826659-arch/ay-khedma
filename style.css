@@ -1,0 +1,66 @@
+.header {
+    background-color: #1a0627;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    height:10px;
+    width:5px;
+}
+
+.button-toggler i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.button-toggler i:hover {
+    color: #3e185a;
+}
+
+.header form {
+    position: relative;
+}
+.header form input {
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.header form input:focus {
+    border-color: #3e185a;
+    box-shadow: 0 0 10px #7c49a7;
+}
+.header form input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.header form button {
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.header ul a {
+    color: #ffffff;
+}
+.header ul a:hover {
+    color: #3e185a;
+}
+
+.header ul a:focus {
+    color: #5f5174;
+}
+
+.header div div div a {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.header div div div a:hover {
+    color: #3e185a;
+}
