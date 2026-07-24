@@ -262,6 +262,7 @@ body{
     }
 
 }
+/* header */
 .header {
       background-color:#245e39;
     position:fixed;
@@ -376,7 +377,6 @@ body{
         text-align: center;
         margin-top: 15px;
     }
-
 }
 /* ================= Login Page ================= */
 
@@ -557,41 +557,63 @@ font-size:15px;
 }
 
 
-/* HERO SECTION */
-.hero {
-    background-image:url('../photo/hero.jpeg');
-    height: 593px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-.hero::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.hero h1, .hero p,.hero a{
-    position: relative;
-    z-index: 1;
+
+
+/* ===== HOME HERO ===== */
+
+.hero{
+   
+    background-image:url("../photo/hero.jpeg");
+   min-height: 100vh;
+    display: flex;
+    margin-top:80px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    background-position: center top;
+    align-items: center;
     text-align: center;
-    margin-top: 5%;
+    padding: 40px 20px;
 }
+
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.5);
+}
+
+
+.hero .container{
+    position:relative;
+    z-index:2;
+}
+
+
 .hero h1{
-    font-size: 3rem;
+    color:#fff;
+    font-size:clamp(35px,5vw,60px);
+    font-weight:700;
 }
+
+
 .hero p{
-    font-size: 1.25rem;
-    color: #beb7b7;
+    color:#ddd;
+    font-size:clamp(16px,2vw,22px);
+    max-width:700px;
+    margin:20px auto;
 }
-.btn-1 {
+
+
+.hero a{
+    position:relative;
+    z-index:3;
+}
+.btn-1{
     background-color: #245e39;
-    border-color: #245e39;
-    color: #fff;
+    color: #ffff;
 }
 .btn-1:hover {
     background-color: #fff;
@@ -959,6 +981,7 @@ font-size:15px;
     font-size:15px;
     margin:15px 0;
 }
+
 /* footer */
 
  .footer{
@@ -1074,13 +1097,17 @@ font-size:15px;
 }
 /*  */
 .hero-service{
-  height:593px ;  
+min-height: 100vh;
+    display: flex;
     margin-top:80px;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     position:relative;
     background-position: center top;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .hero-service::before{
@@ -1091,19 +1118,27 @@ font-size:15px;
 
 }
 
-.hero-service h1,
-.hero-service p,
-.hero-service a{
+.hero-service h1{
     position:relative;
     z-index:2;
     text-align:center;
+     font-size:clamp(35px,5vw,60px);
+    font-weight:700;
 }
+.hero-service p{
+    color:#ddd;
+    position: relative;
+    font-size:clamp(16px,2vw,22px);
+    max-width:700px;
+    margin:20px auto;
+}
+
 .hero-cleaning{
     background-image:url("../photo/house\ cleaning\ \(1\).jpeg");
 }
 
 .hero-maintenance{
-    background-image:url("../photo/maintenance.jpeg");
+    background-image:url("../photo/k.jpeg");
 }
 
 .hero-moving{
@@ -1122,7 +1157,7 @@ font-size:15px;
 
 }
 .hero-finishing{
-                background-image:url("../photo/finishing.jpeg");
+                background-image:url("../photo/aa.jpeg");
 
 }
 /* navigation */
@@ -1529,4 +1564,66 @@ body.dark-mode .service-nav-card:hover{
 body.dark-mode .service-nav-card.active{
     background: #245e39;
     color: #fff;
+}
+/* ================= Responsive Hero ================= */
+
+@media (max-width:991px){
+
+  
+    .hero-service{
+        min-height:55vh;
+        background-position:center;
+    }
+
+}
+
+@media (max-width:768px){
+
+   
+    .hero-service{
+        min-height:45vh;
+        padding:80px 15px 40px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .hero-service{
+        min-height:40vh;
+    }
+
+}
+@media(max-width:768px){
+
+    .hero{
+        min-height:500px;
+        background-position:center center;
+        padding-top:120px;
+    }
+
+
+    .hero h1{
+        font-size:35px;
+    }
+
+
+    .hero p{
+        font-size:16px;
+    }
+
+
+}
+
+
+@media(max-width:480px){
+
+    .hero{
+        min-height:450px;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
 }
